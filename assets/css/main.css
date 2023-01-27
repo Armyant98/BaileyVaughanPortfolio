@@ -3711,7 +3711,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 			}
 
@@ -4054,7 +4054,7 @@ input, select, textarea {
 	.slideRight {
 		position: relative;
 		left: ;
-		animation: slideRight 2.5s ease-in-out;
+		animation: slideRight 2.5s ease-in-out forwards;
 		
 	}
 
