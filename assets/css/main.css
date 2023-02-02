@@ -2487,9 +2487,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #3B4240;
+			background-color: #A1EDBD;
 			box-shadow: none !important;
-			color: #A1EDBD !important;
+			color:   #3B4240!important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2497,8 +2497,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #A1EDBD !important;
-				color: #3B4240 !important;
+				background-color: #3B4240 !important;
+				color: #A1EDBD !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2506,9 +2506,48 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #A1EDBD !important;
-				color: #3B4240  !important;
+				background-color: #3B4240 !important;
+				color: #A1EDBD !important;
 			}
+			
+
+	
+			input[type="submit"].secondary,
+			input[type="reset"].secondary,
+			input[type="button"].secondary,
+			button.secondary,
+			.button.secondary {
+				/* background-color: #3B4240;
+				box-shadow: none !important;
+				color:  #A1EDBD !important; */
+				background: linear-gradient(to right,  #A1EDBD 50%, #3B4240 50%);
+				color:  #A1EDBD !important;
+				background-size: 250% 100%;
+				background-position: right bottom;
+				transition: all .75s ease-out;
+			}
+	
+				input[type="submit"].secondary:hover,
+				input[type="reset"].secondary:hover,
+				input[type="button"].secondary:hover,
+				button.secondary:hover,
+				.button.secondary:hover {
+					/* background-color: #3B4240 !important;
+					color: #A1EDBD !important;
+					animation: fillButton 1s forwards; */
+					background-position: left bottom;
+					color:  #3B4240 !important;
+				}
+
+	
+				input[type="submit"].secondary:active,
+				input[type="reset"].secondary:active,
+				input[type="button"].secondary:active,
+				button.secondary:active,
+				.button.secondary:active {
+					background-color: #3B4240 !important;
+					color: #A1EDBD !important;
+				}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -2819,8 +2858,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #3B4240;
+			/* background-color: #4a4f4d;
+			color: #A1EDBD; */
+			background-color:rgba(124, 118, 118, 0.5);
 			color: #A1EDBD;
+			box-shadow:  0 0 5px rgba(107, 203, 237, 0.2);;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -4071,6 +4113,10 @@ input, select, textarea {
 			opacity: 1;
 			
 		}
+	}
+
+	@keyframes buttonFill {
+		
 	}
 
 
