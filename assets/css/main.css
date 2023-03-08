@@ -2830,6 +2830,7 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 6em 0 4em 0 ;
+		overflow-x: hidden;
 	}
 
 		.wrapper > .inner {
@@ -2862,7 +2863,7 @@ input, select, textarea {
 			color: #A1EDBD; */
 			background-color:rgba(124, 118, 118, 0.5);
 			color: #A1EDBD;
-			box-shadow:  0 0 5px rgba(107, 203, 237, 0.2);;
+		
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3370,6 +3371,7 @@ input, select, textarea {
 		transition: opacity 0.5s ease;
 		opacity: 1;
 		padding-top: 3em;
+		overflow-x: hidden;
 	}
 
 		#page-wrapper:before {
@@ -4030,10 +4032,10 @@ input, select, textarea {
 
 	
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4064,12 +4066,12 @@ input, select, textarea {
 		opacity: 0;
 		animation: flipAnimate 1s ease-in forwards ;
 	}
-.iconContainer img:nth-child(1) { animation-delay: 1.25s }
-.iconContainer img:nth-child(2) { animation-delay: 1.5s }
-.iconContainer img:nth-child(3) { animation-delay: 1.75s }
-.iconContainer img:nth-child(4) { animation-delay: 2s }
-.iconContainer img:nth-child(5) { animation-delay: 2.25s }
-.iconContainer img:nth-child(6) { animation-delay: 2.5s }
+.iconContainer img:nth-child(1) { animation-delay: 1s }
+.iconContainer img:nth-child(2) { animation-delay: 1.25s }
+.iconContainer img:nth-child(3) { animation-delay: 1.50s }
+.iconContainer img:nth-child(4) { animation-delay: 1.75s }
+.iconContainer img:nth-child(5) { animation-delay: 2s }
+.iconContainer img:nth-child(6) { animation-delay: 2.25s }
 	  
 	@keyframes flipAnimate {
 		0% {
@@ -4096,7 +4098,7 @@ input, select, textarea {
 	.slideRight {
 		position: relative;
 		left: ;
-		animation: slideRight 2.5s ease-in-out forwards;
+		animation: slideRight 2s ease-in-out forwards;
 		
 	}
 
@@ -4119,8 +4121,20 @@ input, select, textarea {
 		
 	}
 
+	.container {
+		display: flex;
+		width: 300vw;
+		height: 100vh;
+		justify-content: center;
+
+	}
+	
+
+
 
 /* Section specific styling */
+
+
 
 #one .flexContainer {
 	display: flex;
@@ -4129,7 +4143,13 @@ input, select, textarea {
 }
 
 	#one {
-		padding-bottom: 8em;
+		padding-bottom: 4em;
+		height: 100%;
+		width: 100vw;
+		overflow-y: hidden;
+		
+		
+		
 	}
 
 
@@ -4206,4 +4226,17 @@ input, select, textarea {
 		
 
 
-	
+	.panel {
+		padding-bottom: 4em;
+		height: 100%;
+		width: 100vw;
+		
+		
+	}
+
+	#cta {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
