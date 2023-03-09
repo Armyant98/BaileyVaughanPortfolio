@@ -4123,12 +4123,23 @@ input, select, textarea {
 
 	.container {
 		display: flex;
-		width: 300vw;
+		width: 200vw;
 		height: 100vh;
 		justify-content: center;
-
 	}
 	
+
+
+	.lift {
+		position: relative;
+		transition: transform 2s 
+	}
+
+	
+	.lift:hover {
+		top: -5px;
+	}
+
 
 
 
@@ -4136,13 +4147,13 @@ input, select, textarea {
 
 
 
-#one .flexContainer {
+#one .flexContainer, #two .flexContainer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
-	#one {
+	#one, #two {
 		padding-bottom: 4em;
 		height: 100%;
 		width: 100vw;
@@ -4152,20 +4163,33 @@ input, select, textarea {
 		
 	}
 
+	#two ul > li  {
+		color: white;
+		font-size: 1.5em;
+		list-style: none;
+		text-align: center;
+		padding: 2.5% 0 0 0;
+	}
+		#two ul {
+			padding: 0;
+		}
+
 
 	
 
 
-	#one p, #one h3 {
+	#one p, #one h3, #two h3  {
 		color: white;
 		font-size: 1.5em;
 	}
 
 	
 
+	
 
 
-	#one .halfSection {
+
+	#one .halfSection, #two .halfSection {
 		width: 50%;
 	}
 
@@ -4196,10 +4220,12 @@ input, select, textarea {
 	
 
 	@media screen and (max-width:736px){
-		.flexContainer {
+		#one .flexContainer {
 			flex-direction: column;
-			align-content: center;
+			align-items: center;
+			justify-content: center;
 			width: 100%;
+
 		}
 
 		#one img {
@@ -4218,6 +4244,15 @@ input, select, textarea {
 		#one p {
 			color: white;
 			font-size: 1em;
+			width: 100%;
+		}
+
+		#one .halfSection, #two .halfSection {
+			width: 100%;
+		}
+
+		#one .halfSection:first-of-type {
+			width: 50%;
 		}
 
 	
@@ -4240,3 +4275,21 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 	}
+
+
+#three {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	overflow-y: hidden;
+}
+
+.videoContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	padding: 0 0 20px 0;
+	overflow: hidden;
+}
