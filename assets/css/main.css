@@ -2861,7 +2861,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			/* background-color: #4a4f4d;
 			color: #A1EDBD; */
-			background-color:rgba(124, 118, 118, 0.5);
+			/* background-color:rgba(124, 118, 118, 0.5); */
 			color: #A1EDBD;
 		
 		}
@@ -4142,6 +4142,7 @@ input, select, textarea {
 		width: 200vw;
 		height: 100vh;
 		justify-content: center;
+		background-color:rgba(124, 118, 118, 0.5);
 	}
 	
 
@@ -4314,3 +4315,4 @@ input, select, textarea {
 	padding: 0 0 20px 0;
 	overflow: hidden;
 }
+

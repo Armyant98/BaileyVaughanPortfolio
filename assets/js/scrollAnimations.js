@@ -58,7 +58,12 @@ window.addEventListener('scroll', function(){
 
 const container = document.querySelector('.container')
 const sections = gsap.utils.toArray(".container .panel");
+const gsapContainer = document.querySelector(".container")
 
+
+window.addEventListener("resize", function() {
+  if (window.innerWidth < 1000) resize.classList.remove(".container");
+});
 
 let horizontalScroll = gsap.to(sections, {
   xPercent: -100 * (sections.length - 1),
@@ -67,7 +72,7 @@ let horizontalScroll = gsap.to(sections, {
     trigger: ".container",
     pin: true,
     scrub: 1,
-    end: "+=1500"
+    end: "+=2000"
   }
 });
 
