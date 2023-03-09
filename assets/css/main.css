@@ -4131,6 +4131,7 @@ input, select, textarea {
 
 		.flip{
 			animation:none;
+			opacity: 1;
 		}
 
 
