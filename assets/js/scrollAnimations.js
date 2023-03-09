@@ -46,7 +46,7 @@ window.addEventListener('scroll', function(){
   //Here you forgot to update the value
   scrollpos = window.scrollY;
 
-  if(scrollpos > 1050){
+  if(scrollpos > 950){
       icon_on_scroll();
   }
   
@@ -67,7 +67,7 @@ let horizontalScroll = gsap.to(sections, {
     trigger: ".container",
     pin: true,
     scrub: 1,
-    end: "+=2000"
+    end: `+=${container.offsetWidth}`,
   }
 });
 
