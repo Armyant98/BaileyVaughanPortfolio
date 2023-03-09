@@ -4121,6 +4121,21 @@ input, select, textarea {
 		
 	}
 
+
+	/* removes animations on phones where they were awkward */
+
+	@media screen and (max-width:736px){
+		.slideRight {
+			animation: none;
+		}
+
+		.flip{
+			animation:none;
+		}
+
+
+	}
+
 	.container {
 		display: flex;
 		width: 200vw;
