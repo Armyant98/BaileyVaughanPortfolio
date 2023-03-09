@@ -66,7 +66,7 @@ window.addEventListener("resize", function() {
 });
 
 let horizontalScroll = gsap.to(sections, {
-  xPercent: -100 * (sections.length - 1),
+  xPercent: -100 * (sections.length- 0.90),
   ease: "none",
   scrollTrigger: {
     trigger: ".container",
