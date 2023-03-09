@@ -66,7 +66,7 @@ let horizontalScroll = gsap.to(sections, {
   scrollTrigger: {
     trigger: ".container",
     pin: true,
-    scrub: 1,
+    scrub: true,
     end: `+=${container.offsetWidth}`,
   }
 });
