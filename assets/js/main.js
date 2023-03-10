@@ -81,4 +81,22 @@
 
 		}
 
+		if(window.innerWidth < 800){
+			$('.containerStyle').removeClass('container');
+		}else{
+			$('.containerStyle').addClass('container');
+		}
+
+		
+
+		$(window).resize(function(){
+			if(window.innerWidth < 800){
+				$('.containerStyle').removeClass('container');
+			}else{
+				$('.containerStyle').addClass('container');
+			}
+		});
+
+		
+
 })(jQuery);
