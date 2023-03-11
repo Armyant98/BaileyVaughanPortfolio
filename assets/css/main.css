@@ -4110,7 +4110,7 @@ input, select, textarea {
 	@keyframes slideRight {
 		0% {
 			transform: 
-				translateX(-100px);
+				translateX(-50px);
 				opacity: 0;
 		}
 
