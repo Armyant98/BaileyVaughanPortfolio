@@ -58,9 +58,7 @@ window.addEventListener('scroll', function(){
 
 const container = document.querySelector('.container')
 const sections = gsap.utils.toArray(".container .panel");
-
-
-
+let horzontalScrollInitiate = gsap.matchMedia();
 
 
 horzontalScrollInitiate.add("(min-width: 800px)", () => {
