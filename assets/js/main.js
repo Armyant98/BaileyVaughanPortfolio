@@ -84,10 +84,17 @@
 		if(window.innerWidth < 800){
 			$('.containerStyle').removeClass('container');
 			$('#one').addClass('style2');
+			$('#aboutMobile').removeClass('hidden');
+			$('#skillsMobile').removeClass('hidden');
+			$('#aboutDesktop').addClass('hidden');
 
 		}else{
 			$('.containerStyle').addClass('container');
 			$('#one').removeClass('style2');
+			$('#aboutMobile').addClass('hidden');
+			$('#skillsMobile').addClass('hidden');
+			$('#aboutDesktop').removeClass('hidden');
+			
 
 		}
 
@@ -97,10 +104,16 @@
 			if(window.innerWidth < 800){
 				$('.containerStyle').removeClass('container');
 				$('#one').addClass('style2');
+				$('#aboutMobile').removeClass('hidden');
+				$('#skillsMobile').removeClass('hidden');
+				$('#aboutDesktop').addClass('hidden');
 
 			}else{
 				$('.containerStyle').addClass('container');
 				$('#one').removeClass('style2');
+				$('#aboutMobile').addClass('hidden');
+				$('#skillsMobile').addClass('hidden');
+				$('#aboutDesktop').removeClass('hidden');
 			}
 		});
 
