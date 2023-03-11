@@ -3731,7 +3731,7 @@ input, select, textarea {
 			}
 
 		#banner:after {
-			pointer-events: none;
+			/* pointer-events: none;
 			-moz-transition: opacity 3s ease-in-out;
 			-webkit-transition: opacity 3s ease-in-out;
 			-ms-transition: opacity 3s ease-in-out;
@@ -3748,7 +3748,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			opacity: 0;
+			opacity: 0; */
 		}
 
 		@media screen and (max-width: 736px) {
