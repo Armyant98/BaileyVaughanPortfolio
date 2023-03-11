@@ -81,7 +81,7 @@
 
 		}
 
-		if(window.innerWidth < 800){
+		if(window.innerWidth < 800 || window.innerHeight < 780){
 			$('.containerStyle').removeClass('container');
 			$('#one').addClass('style2');
 			$('#aboutMobile').removeClass('hidden');
@@ -101,7 +101,7 @@
 		
 
 		$(window).resize(function(){
-			if(window.innerWidth < 800){
+			if(window.innerWidth < 800 || window.innerHeight < 780){
 				$('.containerStyle').removeClass('container');
 				$('#one').addClass('style2');
 				$('#aboutMobile').removeClass('hidden');
