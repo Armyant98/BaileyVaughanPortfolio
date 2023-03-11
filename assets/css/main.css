@@ -4059,6 +4059,12 @@ input, select, textarea {
 		object-fit: cover;
 	}
 
+	@media screen and (max-width:736px) {
+		#bgvideo {
+			position: relative;
+		}
+	}
+
 	.flip {
 		position: relative;
 		background: none;
