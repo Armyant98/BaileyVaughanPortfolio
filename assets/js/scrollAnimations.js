@@ -61,47 +61,6 @@ const sections = gsap.utils.toArray(".container .panel");
 
 
 
-// const gsapcontainer = document.querySelector('#container')
-// const panels = document.querySelectorAll('.panel')
-let horzontalScrollInitiate = gsap.matchMedia();
-// const aboutStyle = document.querySelector("#one");
-// const skillsSectiom = document.querySelector("#two");
-
-
-// window.addEventListener("load", function() {
-  
-  
-//     if (window.innerWidth < 800){
-//       gsapcontainer.classList.remove("container");
-//       aboutStyle.classList.add('style2')
-//       skillsSectiom.classList.add('style1')
-  
-//     }
-    
-//     if (window.innerWidth > 800){
-//       gsapcontainer.classList.add("container");
-//       panels.classList.add('panel')
-//       aboutStyle.classList.remove('style2')
-//       skillsSectiom.classList.remove('style1')
-//     }
-  
-//   });
-
-
-
-// window.addEventListener("resize", function() {
-
-
-//   if (window.innerWidth < 800){
-//     gsapcontainer.classList.toggle("container");
-//     aboutStyle.classList.('style2')
-//     skillsSectiom.classList.add('style1')
-
-
-//   }
-  
-// });
-
 
 
 horzontalScrollInitiate.add("(min-width: 800px)", () => {
