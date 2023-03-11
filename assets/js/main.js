@@ -83,8 +83,12 @@
 
 		if(window.innerWidth < 800){
 			$('.containerStyle').removeClass('container');
+			$('#one').addClass('style2');
+
 		}else{
 			$('.containerStyle').addClass('container');
+			$('#one').removeClass('style2');
+
 		}
 
 		
@@ -92,8 +96,11 @@
 		$(window).resize(function(){
 			if(window.innerWidth < 800){
 				$('.containerStyle').removeClass('container');
+				$('#one').addClass('style2');
+
 			}else{
 				$('.containerStyle').addClass('container');
+				$('#one').removeClass('style2');
 			}
 		});
 

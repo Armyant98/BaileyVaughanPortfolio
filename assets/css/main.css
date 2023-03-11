@@ -4095,6 +4095,11 @@ input, select, textarea {
 		
 	}
 
+ 
+	#slideRight { /* starts off the entire slide right section as invisible*/
+		opacity: 0;
+	}
+
 	.slideRight {
 		position: relative;
 		left: ;
@@ -4126,13 +4131,26 @@ input, select, textarea {
 
 	@media screen and (max-width:736px){
 		.slideRight {
-			animation: none;
+			
+			animation: slideUp 2s ease-in-out forwards;
 		}
 
-		.flip{
-			animation:none;
-			opacity: 1;
+		@keyframes slideUp {
+			0% {
+				transform: 
+					translateY(100px);
+					opacity: 0;
+			}
+	
+	
+			100% {
+				transform: translateY(0px);
+				opacity: 1;
+				
+			}
 		}
+
+		
 
 
 	}
