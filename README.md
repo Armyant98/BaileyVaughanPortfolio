@@ -1,5 +1,5 @@
 # Bailey Vaughan Portfolio
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+A portfolio for a 3D animator to show off recent works and programs they are knowledgable in. Also to provide a means of contact for future clients.
 ![Alt text](/images/bayVaughan.jpg?raw=true "Bay Vaughan Portfolio")
 **Link to project:** https://bvaughan.art/
 
