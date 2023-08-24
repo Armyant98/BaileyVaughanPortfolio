@@ -1,6 +1,6 @@
 # Bailey Vaughan Portfolio
 A portfolio for a 3D animator to show off recent works and programs they are knowledgable in. Also to provide a means of contact for future clients.
-![Alt text](/images/bayVaughan.jpg?raw=true "Bay Vaughan Portfolio")
+![Alt text](/images/bayVaughan-desktop.gif?raw=true "Bay Vaughan Portfolio")
 **Link to project:** https://bvaughan.art/
 
 ## How It's Made:
