@@ -11,9 +11,10 @@ For this project I used HTML CSS and JS to build out the site and add animations
 
 ## Optimizations
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I learned about image compression differences for loading times. Also was able to streamline the scrolling to smooth scroll on all tested devices and browsers deemed necessary by the client. 
 
-A major optomization for this site was refactoring the mobile version. This began with removing the horizontal scroll as it felt awkward on the smaller viewport size as well as alternating the section colors in a way that was more visually noticable when scrolling on a mobile device the lack of structure seemed to be an issue for user experience. Refactoring the video was necessary to handle support of IOS, specifically for the thumbnail. Using #t=.01 added to end of video source tag allows it to start at .1 seconds and display the beginning of the video which was essentially the thumbnail on the desktop version.
+The background video proved to be the most troublesome to optimize, loading times could still be improved, but due to target audience being 3D animator recruiters, access to highspeed internet will likely not be an issue. However UX design choices were made for the mobile version highlighted by contrasting color changes and the removal of the horizontal scroll.
+
 
 ## Lessons Learned:
 
